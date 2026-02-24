@@ -39,8 +39,8 @@ public class DriverFactory {
 		}
 
 		getDriver().manage().window().maximize();
-		String str = getDriver().getCurrentUrl();
-		System.out.println(str);
+		String strop = getDriver().getCurrentUrl();
+		System.out.println(strop);
 
 		return getDriver();
 	}

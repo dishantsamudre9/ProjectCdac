@@ -4,8 +4,8 @@
   <listeners>
     <listener class-name="listeners.TestListener"/>
   </listeners>
-  <test thread-count="2" parallel="tests" name="Regression Edge(failed)">
-    <parameter name="browser" value="edge"/>
+  <test thread-count="2" parallel="tests" name="Regression Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
     <groups>
       <run>
         <include name="regression"/>
@@ -20,5 +20,5 @@
         </methods>
       </class> <!-- tests.SearchTest -->
     </classes>
-  </test> <!-- Regression Edge(failed) -->
+  </test> <!-- Regression Chrome(failed) -->
 </suite> <!-- Failed suite [AutomationSuite] -->
