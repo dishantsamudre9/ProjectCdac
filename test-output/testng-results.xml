@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-24T11:11:41 IST" name="AutomationSuite" finished-at="2026-02-24T11:12:01 IST" duration-ms="20713">
+    <groups>
+      <group name="regression">
+        <method signature="SearchTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.SearchTest@7d61eb55]" name="loginTest" class="tests.SearchTest"/>
+        <method signature="SearchTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.SearchTest@f627d13]" name="loginTest" class="tests.SearchTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2026-02-24T11:11:41 IST" name="Regression Chrome" finished-at="2026-02-24T11:11:58 IST" duration-ms="17225">
+      <class name="tests.SearchTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SearchTest@7d61eb55]" started-at="2026-02-24T11:11:42 IST" name="setup" finished-at="2026-02-24T11:11:47 IST" duration-ms="5596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SearchTest@7d61eb55]" started-at="2026-02-24T11:11:42 IST" name="setup" finished-at="2026-02-24T11:11:47 IST" duration-ms="5196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SearchTest@7d61eb55]" started-at="2026-02-24T11:11:42 IST" name="setup" finished-at="2026-02-24T11:11:47 IST" duration-ms="5589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SearchTest@7d61eb55]" started-at="2026-02-24T11:11:42 IST" name="setup" finished-at="2026-02-24T11:11:47 IST" duration-ms="5120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SearchTest@7d61eb55]" started-at="2026-02-24T11:11:42 IST" name="setup" finished-at="2026-02-24T11:11:47 IST" duration-ms="5187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.SearchTest@7d61eb55]" started-at="2026-02-24T11:11:47 IST" name="loginTest" data-provider="loginData" finished-at="2026-02-24T11:11:53 IST" duration-ms="5895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.SearchTest@7d61eb55]" started-at="2026-02-24T11:11:47 IST" name="loginTest" data-provider="loginData" finished-at="2026-02-24T11:11:57 IST" duration-ms="9699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.SearchTest@7d61eb55]" started-at="2026-02-24T11:11:47 IST" name="loginTest" data-provider="loginData" finished-at="2026-02-24T11:11:53 IST" duration-ms="5824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.SearchTest@7d61eb55]" started-at="2026-02-24T11:11:47 IST" name="loginTest" data-provider="loginData" finished-at="2026-02-24T11:11:55 IST" duration-ms="8076" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.SearchTest@7d61eb55]" started-at="2026-02-24T11:11:47 IST" name="loginTest" data-provider="loginData" finished-at="2026-02-24T11:11:53 IST" duration-ms="5837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[
+visual_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@7d61eb55]" started-at="2026-02-24T11:11:53 IST" name="tearDown" finished-at="2026-02-24T11:11:57 IST" duration-ms="4425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@7d61eb55]" started-at="2026-02-24T11:11:53 IST" name="tearDown" finished-at="2026-02-24T11:11:58 IST" duration-ms="4671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@7d61eb55]" started-at="2026-02-24T11:11:53 IST" name="tearDown" finished-at="2026-02-24T11:11:57 IST" duration-ms="4231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@7d61eb55]" started-at="2026-02-24T11:11:55 IST" name="tearDown" finished-at="2026-02-24T11:11:58 IST" duration-ms="2105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@7d61eb55]" started-at="2026-02-24T11:11:57 IST" name="tearDown" finished-at="2026-02-24T11:11:58 IST" duration-ms="1009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchTest -->
+    </test> <!-- Regression Chrome -->
+    <test started-at="2026-02-24T11:11:41 IST" name="Regression Edge" finished-at="2026-02-24T11:12:01 IST" duration-ms="20713">
+      <class name="tests.SearchTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SearchTest@f627d13]" started-at="2026-02-24T11:11:42 IST" name="setup" finished-at="2026-02-24T11:11:52 IST" duration-ms="10290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SearchTest@f627d13]" started-at="2026-02-24T11:11:42 IST" name="setup" finished-at="2026-02-24T11:11:53 IST" duration-ms="11253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SearchTest@f627d13]" started-at="2026-02-24T11:11:42 IST" name="setup" finished-at="2026-02-24T11:11:55 IST" duration-ms="13140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SearchTest@f627d13]" started-at="2026-02-24T11:11:42 IST" name="setup" finished-at="2026-02-24T11:11:50 IST" duration-ms="8483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SearchTest@f627d13]" started-at="2026-02-24T11:11:42 IST" name="setup" finished-at="2026-02-24T11:11:52 IST" duration-ms="10517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.SearchTest@f627d13]" started-at="2026-02-24T11:11:50 IST" name="loginTest" data-provider="loginData" finished-at="2026-02-24T11:11:55 IST" duration-ms="4432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[
+visual_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.SearchTest@f627d13]" started-at="2026-02-24T11:11:52 IST" name="loginTest" data-provider="loginData" finished-at="2026-02-24T11:11:57 IST" duration-ms="4482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.SearchTest@f627d13]" started-at="2026-02-24T11:11:52 IST" name="loginTest" data-provider="loginData" finished-at="2026-02-24T11:11:57 IST" duration-ms="4455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.SearchTest@f627d13]" started-at="2026-02-24T11:11:53 IST" name="loginTest" data-provider="loginData" finished-at="2026-02-24T11:12:01 IST" duration-ms="7857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@f627d13]" started-at="2026-02-24T11:11:55 IST" name="tearDown" finished-at="2026-02-24T11:11:57 IST" duration-ms="2525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.SearchTest@f627d13]" started-at="2026-02-24T11:11:55 IST" name="loginTest" data-provider="loginData" finished-at="2026-02-24T11:11:57 IST" duration-ms="2439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@f627d13]" started-at="2026-02-24T11:11:57 IST" name="tearDown" finished-at="2026-02-24T11:11:58 IST" duration-ms="1070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@f627d13]" started-at="2026-02-24T11:11:57 IST" name="tearDown" finished-at="2026-02-24T11:11:58 IST" duration-ms="972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@f627d13]" started-at="2026-02-24T11:11:57 IST" name="tearDown" finished-at="2026-02-24T11:11:58 IST" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@f627d13]" started-at="2026-02-24T11:12:01 IST" name="tearDown" finished-at="2026-02-24T11:12:01 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchTest -->
+    </test> <!-- Regression Edge -->
+  </suite> <!-- AutomationSuite -->
+</testng-results>

@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="AutomationSuite" parallel="tests" thread-count="2">
+
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
+    <!-- Chrome Regression -->
+    <test name="Regression Chrome">
+        <parameter name="browser" value="chrome"/>
+
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="tests.SearchTest"/>
+        </classes>
+    </test>
+
+
+    <!-- Edge Regression -->
+    <test name="Regression Edge">
+        <parameter name="browser" value="edge"/>
+
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="tests.SearchTest"/>
+        </classes>
+    </test>
+
+</suite>
