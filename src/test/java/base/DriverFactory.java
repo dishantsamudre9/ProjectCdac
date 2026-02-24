@@ -21,24 +21,26 @@ public class DriverFactory {
 
 		} else if (browser.equalsIgnoreCase("edge")) {
 
-		    try {
+			try {
 
-		        WebDriverManager.edgedriver().setup();
+				WebDriverManager.edgedriver().setup();
 
-		    } catch (Exception e) {
+			} catch (Exception e) {
 
-		        System.out.println("⚠️ EdgeDriver download failed. Using local driver.");
+				System.out.println("⚠️ EdgeDriver he download failed. Using local driver.");
 
-		        System.setProperty("webdriver.edge.driver",
-		                "C://Users//disha//OneDrive//Desktop//edgedriver_win64//msedgedriver.exe");
-		    }
+				System.setProperty("webdriver.edge.driver",
+						"C://Users//disha//OneDrive//Desktop//edgedriver_win64//msedgedriver.exe");
+			}
 
-		    driver.set(new EdgeDriver());
+			driver.set(new EdgeDriver());
 		} else {
 			throw new RuntimeException("Browser not supported: " + browser);
 		}
 
 		getDriver().manage().window().maximize();
+		String str = getDriver().getCurrentUrl();
+		System.out.println(str);
 
 		return getDriver();
 	}
